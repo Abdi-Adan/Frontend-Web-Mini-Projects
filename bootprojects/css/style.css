@@ -3,3 +3,37 @@ body {
     /* font-family: 'Sacramento', cursive; */
     font-family: 'Roboto', sans-serif;
 }
+.height{
+    min-height: 100vh;
+}
+#skills{
+    /* background-color: green !important; */
+    min-height: 60vh;
+}
+.title-underline{
+    width: 130px;
+    height: 5px;
+    margin: 0px auto;
+    background-color: green !important;
+}
+.title-underline-about{
+    width: 200px;
+    height: 5px;
+    margin: 0px auto;
+}
+.green{
+    color: green !important;
+}
+.height-80{
+    min-height: 80vh;
+}
+.bg-green{
+    background-color: green !important;
+}
+.about-picture {
+    background: url(../imgs/offices-1181385_1280.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
