@@ -1,39 +1,64 @@
 body {
-    font-family: 'Oswald', sans-serif;
-    /* font-family: 'Sacramento', cursive; */
-    font-family: 'Roboto', sans-serif;
+  font-family: "Oswald", sans-serif;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: "Roboto", sans-serif;
 }
-.height{
-    min-height: 100vh;
+.height {
+  min-height: 100vh;
 }
-#skills{
-    /* background-color: green !important; */
-    min-height: 60vh;
+#skills {
+  /* background-color: green !important; */
+  min-height: 60vh;
 }
-.title-underline{
-    width: 130px;
-    height: 5px;
-    margin: 0px auto;
-    background-color: green !important;
+.title-underline {
+  width: 130px;
+  height: 5px;
+  margin: 0px auto;
+  background-color: green !important;
 }
-.title-underline-about{
-    width: 200px;
-    height: 5px;
-    margin: 0px auto;
+.title-underline-about {
+  width: 200px;
+  height: 5px;
+  margin: 0px auto;
 }
-.green{
-    color: green !important;
+.green {
+  color: green !important;
 }
-.height-80{
-    min-height: 80vh;
+.green-bg {
+  background-color: green !important;
 }
-.bg-green{
-    background-color: green !important;
+.height-80 {
+  min-height: 80vh !important;
+}
+.bg-green {
+  background-color: green !important;
 }
 .about-picture {
-    background: url(../imgs/offices-1181385_1280.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background: url(../imgs/offices-1181385_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+.w-100 {
+  width: 100% !important;
+  height: 90vh;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* .side-color{
+    color: #333;
+} */
